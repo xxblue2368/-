@@ -1,0 +1,39 @@
+.auth button:disabled { opacity: .6; cursor: wait; }
+.form-error { margin: 0; color: #a43131; font-size: 14px; }
+.auth-switch a { font-weight: 700; text-decoration: underline; }
+.mock-note { margin-top: 35px; padding-top: 16px; border-top: 1px solid #ddd5ca; color: #777; font-size: 12px; line-height: 1.6; }
+
+/* Monochrome editorial account screens */
+.auth.auth-showcase{border-color:var(--border-color);background:var(--bg-primary);box-shadow:none}
+.auth.auth-showcase .signup-story{display:flex;flex-direction:column;justify-content:center;gap:0;min-height:650px;padding:64px 58px;background:var(--bg-editorial)!important;color:#FFFFFF}
+.auth.auth-showcase .signup-story::before,.auth.auth-showcase .story-orbit{display:none}
+.auth.auth-showcase .story-kicker{color:#FFFFFF}
+.auth.auth-showcase .story-kicker i{background:#FFFFFF;box-shadow:none}
+.auth.auth-showcase .signup-story h2{max-width:440px;margin:26px 0 18px;color:#FFFFFF;font-size:clamp(38px,4.4vw,58px);line-height:1.19;letter-spacing:-.045em;word-break:keep-all}
+.auth.auth-showcase .signup-story h2 em{color:#FFFFFF}
+.auth.auth-showcase .signup-story>p{max-width:390px;margin:0 0 28px;color:#D0D0D0;line-height:1.75}
+.auth.auth-showcase .float-chip{position:static!important;align-self:flex-start;display:inline-flex;margin:0 0 10px;padding:7px 10px;border:1px solid #777777;background:transparent;color:#FFFFFF;box-shadow:none;backdrop-filter:none;animation:none!important}
+.auth.auth-showcase .story-bottom{position:static!important;margin-top:auto;padding-top:34px;color:#BBBBBB}
+.auth.auth-showcase .story-line{background:#777777}
+.auth.auth-showcase .auth-panel{background:var(--bg-primary);color:var(--text-primary)}
+.auth.auth-showcase .auth-panel>.eyebrow{color:var(--text-secondary)}
+.auth.auth-showcase .auth-panel form>label{color:var(--text-primary)}
+.auth.auth-showcase .auth-panel form>label input{border-color:#CCCCCC;background:var(--bg-primary);color:var(--text-primary);box-shadow:none}
+.auth.auth-showcase .auth-panel form>label input:focus{border-color:var(--border-strong);box-shadow:none;transform:none}
+.auth.auth-showcase .auth-panel .auth-submit{padding:14px 28px!important;border:1px solid var(--border-strong)!important;background:var(--bg-editorial)!important;color:#FFFFFF!important;box-shadow:none!important;transform:none}
+.auth.auth-showcase .auth-panel .auth-submit:hover:not(:disabled){background:#333333!important;filter:none;box-shadow:none!important;transform:none}
+.auth.auth-showcase .auth-switch a{color:var(--text-primary);text-decoration:underline}
+.auth.auth-showcase .mock-note{border-color:var(--border-color);color:var(--text-secondary)}
+@media(max-width:900px){.auth.auth-showcase .signup-story{min-height:0;padding:48px 38px}.auth.auth-showcase .signup-story h2{font-size:43px}.auth.auth-showcase .story-bottom{margin-top:0}}
+@media(max-width:540px){.auth.auth-showcase .signup-story{padding:36px 24px}.auth.auth-showcase .signup-story h2{font-size:36px;line-height:1.22}.auth.auth-showcase .signup-story>p{max-width:100%;margin-bottom:22px}.auth.auth-showcase .story-bottom{padding-top:20px}}
+.onboarding-wrap .onboarding-card{border-color:var(--border-color);background:var(--bg-primary)}
+.onboarding-wrap .onboarding-section,.onboarding-wrap .onboarding-actions{border-color:var(--border-color)}
+.onboarding-wrap .required-consents{border-color:var(--border-color);background:var(--bg-secondary)}
+.onboarding-wrap .body-fields input{border-color:#CCCCCC;background:var(--bg-primary)}
+.onboarding-wrap .consent-line input,.body-consent-toggle input{accent-color:var(--text-primary)}
+.onboarding-wrap .shape-options button{border-color:#CCCCCC;background:var(--bg-primary);color:var(--text-primary)}
+.onboarding-wrap .shape-options button.selected{border-color:var(--border-strong);background:var(--bg-editorial);color:#FFFFFF}
+.onboarding-wrap .style-card.selected{border-color:var(--border-strong);box-shadow:none}
+.onboarding-wrap .completion-mark{background:var(--bg-editorial);color:#FFFFFF}
+.onboarding-wrap .onboarding-actions>button:last-child,.onboarding-wrap .completion-card>button{padding:14px 28px!important;border:1px solid var(--border-strong)!important;background:var(--bg-editorial)!important;color:#FFFFFF!important}
+.onboarding-wrap .onboarding-actions .text-button{color:var(--text-primary)}
