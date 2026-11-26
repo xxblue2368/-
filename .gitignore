@@ -4,7 +4,3 @@ dist/
 .env.*.local
 work/
 outputs/
-public/product-images/
-public/ai-candidates/
-.env
-.DS_Store
