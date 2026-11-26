@@ -1,0 +1,7 @@
+node_modules
+dist
+output
+*.tsbuildinfo
+*.pptx
+*.ndjson
+.DS_Store
